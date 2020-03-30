@@ -1,0 +1,29 @@
+body {
+    background-color: white;
+}
+
+article {
+    padding: 2% 5%;
+    margin: 1% 2%;
+    background-color: whitesmoke;
+    border: .2em solid darkred;
+    position: relative;
+}
+
+article > .flag {
+    font-weight: bolder;
+    width: 3em;
+    padding-top: 2.5em;
+    vertical-align: middle;
+    color: white;
+    text-align: center;
+}
+
+.red {
+    background-color: darkred;
+}
+
+.title {
+    color: darkred;
+    padding-left: 7%;
+}
